@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846AF35523C8D85200BAC248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AF35423C8D85200BAC248 /* AppDelegate.swift */; };
+		846AF35723C8D85200BAC248 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AF35623C8D85200BAC248 /* SceneDelegate.swift */; };
+		846AF35923C8D85200BAC248 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AF35823C8D85200BAC248 /* ContentView.swift */; };
+		846AF35B23C8D85200BAC248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846AF35A23C8D85200BAC248 /* Assets.xcassets */; };
+		846AF35E23C8D85200BAC248 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846AF35D23C8D85200BAC248 /* Preview Assets.xcassets */; };
+		846AF36123C8D85200BAC248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846AF35F23C8D85200BAC248 /* LaunchScreen.storyboard */; };
+		846AF36C23C8D85300BAC248 /* ReceptMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AF36B23C8D85300BAC248 /* ReceptMakerTests.swift */; };
+		846AF37723C8D85300BAC248 /* ReceptMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AF37623C8D85300BAC248 /* ReceptMakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846AF36823C8D85300BAC248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846AF34923C8D85200BAC248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846AF35023C8D85200BAC248;
+			remoteInfo = ReceptMaker;
+		};
+		846AF37323C8D85300BAC248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846AF34923C8D85200BAC248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846AF35023C8D85200BAC248;
+			remoteInfo = ReceptMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846AF35123C8D85200BAC248 /* ReceptMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceptMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846AF35423C8D85200BAC248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846AF35623C8D85200BAC248 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		846AF35823C8D85200BAC248 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		846AF35A23C8D85200BAC248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846AF35D23C8D85200BAC248 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		846AF36023C8D85200BAC248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846AF36223C8D85200BAC248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846AF36723C8D85300BAC248 /* ReceptMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceptMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846AF36B23C8D85300BAC248 /* ReceptMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptMakerTests.swift; sourceTree = "<group>"; };
+		846AF36D23C8D85300BAC248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846AF37223C8D85300BAC248 /* ReceptMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceptMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846AF37623C8D85300BAC248 /* ReceptMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptMakerUITests.swift; sourceTree = "<group>"; };
+		846AF37823C8D85300BAC248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846AF34E23C8D85200BAC248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846AF36423C8D85300BAC248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846AF36F23C8D85300BAC248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846AF34823C8D85200BAC248 = {
+			isa = PBXGroup;
+			children = (
+				846AF35323C8D85200BAC248 /* ReceptMaker */,
+				846AF36A23C8D85300BAC248 /* ReceptMakerTests */,
+				846AF37523C8D85300BAC248 /* ReceptMakerUITests */,
+				846AF35223C8D85200BAC248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846AF35223C8D85200BAC248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846AF35123C8D85200BAC248 /* ReceptMaker.app */,
+				846AF36723C8D85300BAC248 /* ReceptMakerTests.xctest */,
+				846AF37223C8D85300BAC248 /* ReceptMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846AF35323C8D85200BAC248 /* ReceptMaker */ = {
+			isa = PBXGroup;
+			children = (
+				846AF35423C8D85200BAC248 /* AppDelegate.swift */,
+				846AF35623C8D85200BAC248 /* SceneDelegate.swift */,
+				846AF35823C8D85200BAC248 /* ContentView.swift */,
+				846AF35A23C8D85200BAC248 /* Assets.xcassets */,
+				846AF35F23C8D85200BAC248 /* LaunchScreen.storyboard */,
+				846AF36223C8D85200BAC248 /* Info.plist */,
+				846AF35C23C8D85200BAC248 /* Preview Content */,
+			);
+			path = ReceptMaker;
+			sourceTree = "<group>";
+		};
+		846AF35C23C8D85200BAC248 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				846AF35D23C8D85200BAC248 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		846AF36A23C8D85300BAC248 /* ReceptMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				846AF36B23C8D85300BAC248 /* ReceptMakerTests.swift */,
+				846AF36D23C8D85300BAC248 /* Info.plist */,
+			);
+			path = ReceptMakerTests;
+			sourceTree = "<group>";
+		};
+		846AF37523C8D85300BAC248 /* ReceptMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846AF37623C8D85300BAC248 /* ReceptMakerUITests.swift */,
+				846AF37823C8D85300BAC248 /* Info.plist */,
+			);
+			path = ReceptMakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846AF35023C8D85200BAC248 /* ReceptMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846AF37B23C8D85300BAC248 /* Build configuration list for PBXNativeTarget "ReceptMaker" */;
+			buildPhases = (
+				846AF34D23C8D85200BAC248 /* Sources */,
+				846AF34E23C8D85200BAC248 /* Frameworks */,
+				846AF34F23C8D85200BAC248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReceptMaker;
+			productName = ReceptMaker;
+			productReference = 846AF35123C8D85200BAC248 /* ReceptMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846AF36623C8D85300BAC248 /* ReceptMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846AF37E23C8D85300BAC248 /* Build configuration list for PBXNativeTarget "ReceptMakerTests" */;
+			buildPhases = (
+				846AF36323C8D85300BAC248 /* Sources */,
+				846AF36423C8D85300BAC248 /* Frameworks */,
+				846AF36523C8D85300BAC248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846AF36923C8D85300BAC248 /* PBXTargetDependency */,
+			);
+			name = ReceptMakerTests;
+			productName = ReceptMakerTests;
+			productReference = 846AF36723C8D85300BAC248 /* ReceptMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846AF37123C8D85300BAC248 /* ReceptMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846AF38123C8D85300BAC248 /* Build configuration list for PBXNativeTarget "ReceptMakerUITests" */;
+			buildPhases = (
+				846AF36E23C8D85300BAC248 /* Sources */,
+				846AF36F23C8D85300BAC248 /* Frameworks */,
+				846AF37023C8D85300BAC248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846AF37423C8D85300BAC248 /* PBXTargetDependency */,
+			);
+			name = ReceptMakerUITests;
+			productName = ReceptMakerUITests;
+			productReference = 846AF37223C8D85300BAC248 /* ReceptMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846AF34923C8D85200BAC248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "David Ström";
+				TargetAttributes = {
+					846AF35023C8D85200BAC248 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					846AF36623C8D85300BAC248 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 846AF35023C8D85200BAC248;
+					};
+					846AF37123C8D85300BAC248 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 846AF35023C8D85200BAC248;
+					};
+				};
+			};
+			buildConfigurationList = 846AF34C23C8D85200BAC248 /* Build configuration list for PBXProject "ReceptMaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846AF34823C8D85200BAC248;
+			productRefGroup = 846AF35223C8D85200BAC248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846AF35023C8D85200BAC248 /* ReceptMaker */,
+				846AF36623C8D85300BAC248 /* ReceptMakerTests */,
+				846AF37123C8D85300BAC248 /* ReceptMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846AF34F23C8D85200BAC248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846AF36123C8D85200BAC248 /* LaunchScreen.storyboard in Resources */,
+				846AF35E23C8D85200BAC248 /* Preview Assets.xcassets in Resources */,
+				846AF35B23C8D85200BAC248 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846AF36523C8D85300BAC248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846AF37023C8D85300BAC248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846AF34D23C8D85200BAC248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846AF35523C8D85200BAC248 /* AppDelegate.swift in Sources */,
+				846AF35723C8D85200BAC248 /* SceneDelegate.swift in Sources */,
+				846AF35923C8D85200BAC248 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846AF36323C8D85300BAC248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846AF36C23C8D85300BAC248 /* ReceptMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846AF36E23C8D85300BAC248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846AF37723C8D85300BAC248 /* ReceptMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846AF36923C8D85300BAC248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846AF35023C8D85200BAC248 /* ReceptMaker */;
+			targetProxy = 846AF36823C8D85300BAC248 /* PBXContainerItemProxy */;
+		};
+		846AF37423C8D85300BAC248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846AF35023C8D85200BAC248 /* ReceptMaker */;
+			targetProxy = 846AF37323C8D85300BAC248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846AF35F23C8D85200BAC248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846AF36023C8D85200BAC248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846AF37923C8D85300BAC248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846AF37A23C8D85300BAC248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846AF37C23C8D85300BAC248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ReceptMaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ReceptMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Software.ReceptMaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846AF37D23C8D85300BAC248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ReceptMaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ReceptMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Software.ReceptMaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846AF37F23C8D85300BAC248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReceptMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Software.ReceptMakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceptMaker.app/ReceptMaker";
+			};
+			name = Debug;
+		};
+		846AF38023C8D85300BAC248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReceptMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Software.ReceptMakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceptMaker.app/ReceptMaker";
+			};
+			name = Release;
+		};
+		846AF38223C8D85300BAC248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReceptMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Software.ReceptMakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReceptMaker;
+			};
+			name = Debug;
+		};
+		846AF38323C8D85300BAC248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReceptMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Software.ReceptMakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReceptMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846AF34C23C8D85200BAC248 /* Build configuration list for PBXProject "ReceptMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846AF37923C8D85300BAC248 /* Debug */,
+				846AF37A23C8D85300BAC248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846AF37B23C8D85300BAC248 /* Build configuration list for PBXNativeTarget "ReceptMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846AF37C23C8D85300BAC248 /* Debug */,
+				846AF37D23C8D85300BAC248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846AF37E23C8D85300BAC248 /* Build configuration list for PBXNativeTarget "ReceptMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846AF37F23C8D85300BAC248 /* Debug */,
+				846AF38023C8D85300BAC248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846AF38123C8D85300BAC248 /* Build configuration list for PBXNativeTarget "ReceptMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846AF38223C8D85300BAC248 /* Debug */,
+				846AF38323C8D85300BAC248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846AF34923C8D85200BAC248 /* Project object */;
+}
